@@ -1,0 +1,52 @@
+---
+title: "Clase"
+author: "Cintia Arceo"
+date: "2025-05-15"
+output: html_document
+---
+
+# Esto es un ejemplo para la clase
+
+```{r}
+a <- 2
+b <- 3
+
+c <- a + b
+```
+
+## Gráfico
+
+quiero hacer un grafico
+
+```{r}
+x <- rnorm(100, 100, 10)
+
+plot(x)
+```
+
+# Nueva sección
+
+**esta es texto**
+
+`a <- 2`
+
+`b <- 3`
+
+`c <- a+b`
+
+1.  uno
+
+2.  dos
+
+``` r
+a + b
+plot(x)
+```
+
+link a [google](https://www.google.com)...
+
+| Col1 | Col2 | Col3 |
+|------|------|------|
+| a    | 2    |      |
+| b    | 3    |      |
+| c    | a+b  |      |
